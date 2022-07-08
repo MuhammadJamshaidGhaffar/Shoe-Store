@@ -14,6 +14,7 @@ function App() {
         <NavLink to="/">Home</NavLink>
         <NavLink to="products">Products</NavLink>
       </ul>
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="home" element={<Home />} />
